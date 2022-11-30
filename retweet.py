@@ -1,4 +1,3 @@
-import tweepy
 import keys
 from time import sleep
 import datetime
