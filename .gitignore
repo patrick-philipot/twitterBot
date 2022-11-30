@@ -1,2 +1,7 @@
+# private API keys
 keys.py
+
+# Virtuel env. folder
+venv/
+
 
