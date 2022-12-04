@@ -1,3 +1,6 @@
+# force files to be commited
+!.gitignore
+
 # private API keys
 keys.py
 
