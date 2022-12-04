@@ -3,14 +3,9 @@ from TwitterAPI import (
     TwitterAPI,
     TwitterPager
 )
+import keys
 
-consumer_key        = "xeMASsDEjx9ozYRxUBSq1J2zM"
-consumer_secret     = "YlrkBpM64i9tAAaUnM2uABnJ3Hl601rqNPfNloD0qhyppLGbZT"
-access_token = '1080801507984003072-n23N9LBNmDkVywVS4gCgLCAoyYqdqq'
-access_token_secret = '4dWeQXBhMPgJvM3UYS9oyxFfiADe3LizF4XSDr2AAbyaA'
-
-
-client = TwitterAPI(consumer_key, consumer_secret, access_token, access_token_secret, api_version='2')
+client = TwitterAPI(keys.api_key, keys.api_secret, keys.access_token, keys.access_token_secret, api_version='2')
 
 # Get own user id
 my_user = client.request(f'users/:me')
