@@ -1,0 +1,17 @@
+API V2
+REST utilisant la méthode Get
+la methode public_metrics
+
+il faut un compte twitter dev
+
+Oauth 2.0 Bearer token
+
+node-fetch
+
+urlSearchParams()
+
+le nom des followers
+
+classe
+
+limitations

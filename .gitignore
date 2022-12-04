@@ -3,5 +3,12 @@ keys.py
 
 # Virtuel env. folder
 venv/
+.venv/
+
+# Others unwanted folders
+__pycache__/keys.cpython-39.pyc
+
+# Mac OS
+.DS_Store
 
 
