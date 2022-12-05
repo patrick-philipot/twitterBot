@@ -24,6 +24,7 @@ def printFollowers():
     user = api.get_user(screen_name='@DIVIZIO1')
     # Get user Twitter statistics
     print(f"user.followers_count: {user.followers_count}")
+    print(f"user.id: {user.id}")
 
     # Show followers
     for follower in user.followers():
